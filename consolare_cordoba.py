@@ -11,9 +11,7 @@ from os import system
 
 PATH = "/home/ponti/Escritorio/dev/Trabajos/prenotami-BOT/chromedriver"  # Ruta del archivo chromedriver
 
-operacion = 5
-
-while operacion > 4:
+while True:
     x_cliente = int(input("Introduci el numero del cliente: "))
     print("Pasaporte = 1 \nLegalizacion = 2 \nServicios Consulares = 3 \nCiudadania = 4")
     operacion = int(input("Que tipo de operacion queres realizar?: "))
@@ -21,6 +19,8 @@ while operacion > 4:
         print("Operacion invalida \nVolviendo atras...")
         time.sleep(2)
         system('clear')
+    else:
+        break
 
 with open ('users_info.json') as file:
     json_dict = json.load(file)
