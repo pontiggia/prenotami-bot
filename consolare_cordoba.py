@@ -9,9 +9,9 @@ from locators import mainPageLocators as mpl
 import time, json
 from os import system
 
-PATH = "/home/ponti/Escritorio/dev/Trabajos/prenotami-BOT/chromedriver"  # Ruta del archivo chromedriver
+PATH = ""  # Chrome driver path
 
-while True:
+while True: # Tasks menu
     x_cliente = int(input("Introduci el numero del cliente: "))
     print("Pasaporte = 1 \nLegalizacion = 2 \nServicios Consulares = 3 \nCiudadania = 4")
     operacion = int(input("Que tipo de operacion queres realizar?: "))
@@ -22,10 +22,10 @@ while True:
     else:
         break
 
-with open ('users_info.json') as file:
+with open ('users_info.json') as file: # read the json file who contains the client data
     json_dict = json.load(file)
     lista_clientes = json_dict["listaClientes"]
-    cliente = lista_clientes[x_cliente-1] # Le restamos uno debido a que la listas empiezan desde 0
+    cliente = lista_clientes[x_cliente-1] # Substract 1 because the list index begin from 0
     
     email = cliente["email"]
     password = cliente["password"]
@@ -39,12 +39,12 @@ with open ('users_info.json') as file:
 
 
 print("Abriendo navegador")
-webdriver0 = webdriver.Chrome(PATH) # Crea el objeto del navegador
+webdriver0 = webdriver.Chrome(PATH) # Create the object 
 #webdriver0.maximize_window()
-webdriver0.get("https://prenotami.esteri.it/")
+webdriver0.get("https://prenotami.esteri.it/") # open the window in the required page
 
         
-def login(): # funcion de inicio de sesion
+def login(): # login function
 
     # Coloca los datos de inicio de sesion en los input correctos
     login_email = webdriver0.find_element_by_id(mpl.LOGIN_EMAIL_LOCATORS) 
@@ -56,7 +56,7 @@ def login(): # funcion de inicio de sesion
     print("Sesion Iniciada")
         
 
-def passport(): # Funcion para el condicional pasaporte 
+def passport(): # function that make the passport reserve
     idioma = webdriver0.find_element_by_xpath(mpl.LENGUAJE_BUTTON)
     idioma.click()
     time.sleep(1)
@@ -92,7 +92,7 @@ def passport(): # Funcion para el condicional pasaporte
     time.sleep(1)
 
     
-def legalization(): # Funcion para el condicional legalizacion
+def legalization(): # Function that make the legalization task
     idioma = webdriver0.find_element_by_xpath(mpl.LENGUAJE_BUTTON)
     idioma.click()
     time.sleep(1)
@@ -113,7 +113,7 @@ def legalization(): # Funcion para el condicional legalizacion
     time.sleep(1)
         
    
-def consularServices(): # Funcion para el condicional Servicios consulares
+def consularServices(): # Function that make the consular services task 
     idioma = webdriver0.find_element_by_xpath(mpl.LENGUAJE_BUTTON)
     idioma.click()
     time.sleep(1)
@@ -133,7 +133,7 @@ def consularServices(): # Funcion para el condicional Servicios consulares
     time.sleep(1)
 
 
-def citizenship(): # Funcion para el condicional Ciudadania
+def citizenship(): # Function that make the citizenship reserve
     idioma = webdriver0.find_element_by_xpath(mpl.LENGUAJE_BUTTON)
     idioma.click()
     time.sleep(1)
