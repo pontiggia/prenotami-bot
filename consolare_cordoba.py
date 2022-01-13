@@ -41,7 +41,7 @@ with open ('users_info.json') as file: # read the json file who contains the cli
 print("Abriendo navegador")
 webdriver0 = webdriver.Chrome(PATH) # Create the object 
 #webdriver0.maximize_window()
-webdriver0.get("https://prenotami.esteri.it/") # open the window in the required page
+webdriver0.get("") # open the window in the required page
 
         
 def login(): # login function
