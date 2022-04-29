@@ -11,6 +11,25 @@ cd prenotami-bot
 
 python consolare_cordoba.py
 ```
+### users_info
+Fill all the info to complete de inputs
+```json
+{
+            "cliente numero": ,
+            "email": "",
+            "password": "",
+            "address": "",
+            "nombre_completo_conyuge": "", 
+            "hijosMenores": "",
+            "estatura": "",
+            "color_de_ojos": "",
+            "nombre_completo_hijo": "", 
+            "estadoCivil": "", 
+            "pasaporteItaliano": "", 
+            "hijosNumero": "",
+            "mensaje": ""
+        }
+```
 
 ## Options
 ```
