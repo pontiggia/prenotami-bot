@@ -41,5 +41,5 @@ Fill all the info to complete the inputs
 [4] Ciudadania
 ```
 ## Screenshot (PoC)
-![image](https://user-images.githubusercontent.com/71143849/165992822-9dd6e141-74b8-4882-9e84-58cff6f52afb.png)
+![image](https://user-images.githubusercontent.com/71143849/165993408-496ee58a-72a3-489b-9b50-f27e80709419.png)
 
