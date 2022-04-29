@@ -1,7 +1,7 @@
 # Prenotami-bot
 (Outdated - Desactualizado)
 
-🤖 Bot 🤖
+🤖 Selenium web browser bot with python to automate tasks in a site 🤖
 
 ## Instructions
 ```bash
