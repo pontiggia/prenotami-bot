@@ -11,7 +11,7 @@ cd prenotami-bot
 
 python consolare_cordoba.py
 ```
-## **Users_info
+## *Users_info
 Fill all the info to complete de inputs
 ```json
 {
