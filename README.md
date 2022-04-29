@@ -38,6 +38,6 @@ Fill all the info to complete de inputs
 [3] Servicios consulares
 [4] Ciudadania
 ```
-## Video (PoC)
+## Screenshot (PoC)
+![image](https://user-images.githubusercontent.com/71143849/165992822-9dd6e141-74b8-4882-9e84-58cff6f52afb.png)
 
-![video](https://cdn.discordapp.com/attachments/823572630308651018/869326084368396318/kazam__tpicblg.movie.mp4)
