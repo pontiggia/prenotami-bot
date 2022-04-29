@@ -13,6 +13,13 @@ cd prenotami-bot
 
 python consolare_cordoba.py
 ```
+
+## Requirements
+```txt
+selenium
+google chrome driver
+```
+
 ## Users_info
 Fill all the info to complete the inputs
 ```json
