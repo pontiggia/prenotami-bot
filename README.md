@@ -2,6 +2,7 @@
 (Outdated - Desactualizado)
 
 🤖 Selenium web browser bot with python to automate tasks in a site 🤖
+✅ 7 seconds to complete all the form
 
 ## Instructions
 ```bash
