@@ -164,18 +164,15 @@ def citizenship(): # Function that make the citizenship reserve
 
 
 if __name__ == '__main__':
+     login()
      if operacion == 1:
-            login()
-            passport()
-        elif operacion == 2:
-            login()
-            legalization()
-        elif operacion == 3:
-            login()
-            consularServices()
-        elif operacion == 4:
-            login()
-            citizenship()
+         passport()
+     elif operacion == 2:
+         legalization()
+     elif operacion == 3:
+         consularServices()
+     elif operacion == 4:
+         citizenship()
 
 
 
