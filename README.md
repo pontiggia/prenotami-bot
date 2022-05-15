@@ -24,20 +24,20 @@ google chrome driver
 Fill all the info to complete the inputs
 ```json
 {
-            "cliente numero": ,
-            "email": "",
-            "password": "",
-            "address": "",
-            "nombre_completo_conyuge": "", 
-            "hijosMenores": "",
-            "estatura": "",
-            "color_de_ojos": "",
-            "nombre_completo_hijo": "", 
-            "estadoCivil": "", 
-            "pasaporteItaliano": "", 
-            "hijosNumero": "",
-            "mensaje": ""
-        }
+  "cliente numero": ,
+  "email": "",
+  "password": "",
+  "address": "",
+  "nombre_completo_conyuge": "", 
+  "hijosMenores": "",
+  "estatura": "",
+  "color_de_ojos": "",
+  "nombre_completo_hijo": "", 
+  "estadoCivil": "", 
+  "pasaporteItaliano": "", 
+  "hijosNumero": "",
+  "mensaje": ""
+}
 ```
 
 ## Options
