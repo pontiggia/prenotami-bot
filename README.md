@@ -1,5 +1,5 @@
 # Prenotami-bot
-(Outdated - Desactualizado)
+## (Outdated - Desactualizado)
 
 🤖 Selenium web browser bot with python to automate tasks in a site 🤖
 
